@@ -1,0 +1,5 @@
+;; FP : MASTERCHIEF : SMG
+
+first-person reload-empty	=	first-person reload-full
+first-person light-on		=	first-person light-off
+

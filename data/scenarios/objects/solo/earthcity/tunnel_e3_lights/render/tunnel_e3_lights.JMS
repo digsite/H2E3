@@ -1,0 +1,250 @@
+;### VERSION ###
+8210
+;	<8197-8210>
+
+;### NODES ###
+1
+;	<name>
+;	<parent node index>
+;	<default rotation <i,j,k,w>>
+;	<default translation <x,y,z>>
+
+;NODE 0
+b_e3_tunnel
+-1
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+0.0000000000	0.0000000000	0.0000000000
+
+;### MATERIALS ###
+1
+;	<name>
+;	<(Material Slot Index) LOD Permutation Region>
+
+;MATERIAL 0
+ob_inco inviz_collision
+(1) L6 default default
+
+;### MARKERS ###
+2
+;	<name>
+;	<node index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;MARKER 0
+light_a
+0
+-0.7010573745	-0.0922962874	0.7010573745	0.0922958031
+238.9618377686	-8.6963987350	92.6816711426
+0.9999998808
+
+;MARKER 1
+light_b
+0
+-0.7010573745	-0.0922962874	0.7010573745	0.0922958031
+-237.4291839600	-8.6959514618	92.6816558838
+0.9999998808
+
+;### INSTANCE XREF PATHS ###
+0
+;	<path to asset file>
+;	<name>
+
+;### INSTANCE MARKERS ###
+0
+;	<name>
+;	<unique identifier>
+;	<path index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+
+;### VERTICES ###
+6
+;	<position>
+;	<normal>
+;	<node influences count>
+;		<index>
+;		<weight>
+;	<texture coordinate count>
+;		<texture coordinates <u,v>>
+
+;VERTEX 0
+50.0000000000	-50.0000000000	143.5811157227
+0.0000000000	0.0000000000	-1.0000000000
+1
+0
+1.0000000000
+1
+0.0000000000	0.0000000000
+
+;VERTEX 1
+-50.0000000000	-50.0000000000	143.5811157227
+0.0000000000	0.0000000000	-1.0000000000
+1
+0
+1.0000000000
+1
+1.0000000000	0.0000000000
+
+;VERTEX 2
+50.0000000000	50.0000000000	143.5811157227
+0.0000000000	0.0000000000	-1.0000000000
+1
+0
+1.0000000000
+1
+0.0000000000	1.0000000000
+
+;VERTEX 3
+-50.0000000000	50.0000000000	143.5811157227
+0.0000000000	0.0000000000	-1.0000000000
+1
+0
+1.0000000000
+1
+1.0000000000	1.0000000000
+
+;VERTEX 4
+50.0000000000	50.0000000000	143.5811157227
+0.0000000000	0.0000000000	-1.0000000000
+1
+0
+1.0000000000
+1
+0.0000000000	1.0000000000
+
+;VERTEX 5
+-50.0000000000	-50.0000000000	143.5811157227
+0.0000000000	0.0000000000	-1.0000000000
+1
+0
+1.0000000000
+1
+1.0000000000	0.0000000000
+
+;### TRIANGLES ###
+2
+;	<material index>
+;	<vertex indices <v0,v1,v2>>
+
+;TRIANGLE 0
+0
+0	1	2
+
+;TRIANGLE 1
+0
+3	4	5
+
+;### SPHERES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### BOXES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<width (x)>
+;	<length (y)>
+;	<height (z)>
+
+;### CAPSULES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<height>
+;	<radius>
+
+;### CONVEX SHAPES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<vertex count>
+;	<...vertices>
+
+;### RAGDOLLS ###
+0
+;	<name>
+;	<attached index>
+;	<referenced index>
+;	<attached transform>
+;	<reference transform>
+;	<min twist>
+;	<max twist>
+;	<min cone>
+;	<max cone>
+;	<min plane>
+;	<max plane>
+
+;### HINGES ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min angle>
+;	<max angle>
+
+;### CAR WHEEL ###
+0
+;	<name>
+;	<chassis index>
+;	<wheel index>
+;	<chassis transform>
+;	<wheel transform>
+;	<suspension transform>
+;	<suspension min limit>
+;	<suspension max limit>
+;	<friction limit>
+;	<velocity>
+;	<gain>
+
+;### POINT TO POINT ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<constraint type>
+;	<x min limit>
+;	<x max limit>
+;	<y min limit>
+;	<y max limit>
+;	<z min limit>
+;	<z max limit>
+;	<spring length>
+
+;### PRISMATIC ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min limit>
+;	<max limit>
+
+;### BOUNDING SPHERE ###
+0
+;	<translation <x,y,z>>
+;	<radius>

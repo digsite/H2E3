@@ -1,0 +1,304 @@
+;### VERSION ###
+8210
+;	<8197-8210>
+
+;### NODES ###
+18
+;	<name>
+;	<parent node index>
+;	<default rotation <i,j,k,w>>
+;	<default translation <x,y,z>>
+
+;NODE 0
+hull
+-1
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+0.0000000000	0.0000000000	42.0000000000
+
+;NODE 1
+gun_mount_base
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-50.0000000000	0.0000000000	43.8637161255
+
+;NODE 2
+chain
+1
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-32.3101806641	13.4801788330	74.8096771240
+
+;NODE 3
+gun
+1
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-22.0300025940	0.0000076294	81.8899841309
+
+;NODE 4
+barrels
+3
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-14.1130037308	0.0000038147	91.4999847412
+
+;NODE 5
+left_back_suspension
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-39.3011856079	11.0569152832	23.0116996765
+
+;NODE 6
+left_back_engine
+5
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-63.0000000000	20.0000000000	19.0000019073
+
+;NODE 7
+left_back_tire
+6
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-63.0000000000	38.0000000000	19.0000019073
+
+;NODE 8
+left_front_suspension
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+42.8250579834	11.0569152832	22.5187664032
+
+;NODE 9
+left_front_engine
+8
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+67.0000000000	19.9999961853	19.0000000000
+
+;NODE 10
+left_front_tire
+9
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+67.0000000000	38.0000000000	19.0000000000
+
+;NODE 11
+right_back_suspension
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-39.3011856079	-10.8480529785	23.0116996765
+
+;NODE 12
+right_back_engine
+11
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-63.0000000000	-20.0000000000	19.0000019073
+
+;NODE 13
+right_back_tire
+12
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-63.0000000000	-38.0000000000	19.0000019073
+
+;NODE 14
+right_front_suspensio
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+42.8250579834	-10.8480529785	22.5187664032
+
+;NODE 15
+right_front_engine
+14
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+67.0000000000	-20.0000000000	19.0000000000
+
+;NODE 16
+right_front_tire
+15
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+67.0000000000	-37.9999961853	19.0000000000
+
+;NODE 17
+steering_wheel
+0
+0.0000000000	-0.6427869797	0.0000000000	0.7660449743
+14.7254314423	16.9564208984	54.0873107910
+
+;### MATERIALS ###
+1
+;	<name>
+;	<(Material Slot Index) LOD Permutation Region>
+
+;MATERIAL 0
+hum_metal
+(15) base hull
+
+;### MARKERS ###
+0
+;	<name>
+;	<node index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### INSTANCE XREF PATHS ###
+0
+;	<path to asset file>
+;	<name>
+
+;### INSTANCE MARKERS ###
+0
+;	<name>
+;	<unique identifier>
+;	<path index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+
+;### VERTICES ###
+0
+;	<position>
+;	<normal>
+;	<node influences count>
+;		<index>
+;		<weight>
+;	<texture coordinate count>
+;		<texture coordinates <u,v>>
+
+;### TRIANGLES ###
+0
+;	<material index>
+;	<vertex indices <v0,v1,v2>>
+
+;### SPHERES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### BOXES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<width (x)>
+;	<length (y)>
+;	<height (z)>
+
+;### CAPSULES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<height>
+;	<radius>
+
+;### CONVEX SHAPES ###
+1
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<vertex count>
+;	<...vertices>
+
+;CONVEX 0
+physics_hull
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+0.0000000000	0.0000000000	-23.0811195374
+20
+-87.8614578247	-28.1177425385	6.0310268402
+-64.1625518799	-42.9458694458	-1.0645284653
+66.3144912720	-42.9458732605	-1.0652246475
+92.5493316650	-25.0406455994	28.8033084869
+90.4422073364	-25.0406417847	4.1466131210
+-87.8614578247	28.1177501678	6.0310306549
+-64.1625518799	42.9458847046	-1.0645284653
+66.3144912720	42.9458808899	-1.0652246475
+90.4422073364	25.0406436920	4.1466169357
+92.5493316650	25.0406455994	28.8033084869
+-87.6265869141	-34.3636245728	30.9231643677
+-15.8794212341	-23.8622264862	53.1819992065
+24.2994384766	-23.6981449127	53.1819992065
+-87.6265869141	34.3636322021	30.9231643677
+-15.8794212341	23.8622264862	53.1819992065
+24.2994384766	23.6981410980	53.1819992065
+67.2469100952	41.4837760925	21.0333919525
+-56.1510581970	40.1525497437	21.1596984863
+66.9639663696	-41.3294868469	21.6018753052
+-54.0650062561	-39.1998367310	23.6611385345
+
+;### RAGDOLLS ###
+0
+;	<name>
+;	<attached index>
+;	<referenced index>
+;	<attached transform>
+;	<reference transform>
+;	<min twist>
+;	<max twist>
+;	<min cone>
+;	<max cone>
+;	<min plane>
+;	<max plane>
+
+;### HINGES ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min angle>
+;	<max angle>
+
+;### CAR WHEEL ###
+0
+;	<name>
+;	<chassis index>
+;	<wheel index>
+;	<chassis transform>
+;	<wheel transform>
+;	<suspension transform>
+;	<suspension min limit>
+;	<suspension max limit>
+;	<friction limit>
+;	<velocity>
+;	<gain>
+
+;### POINT TO POINT ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<constraint type>
+;	<x min limit>
+;	<x max limit>
+;	<y min limit>
+;	<y max limit>
+;	<z min limit>
+;	<z max limit>
+;	<spring length>
+
+;### PRISMATIC ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min limit>
+;	<max limit>
+
+;### BOUNDING SPHERE ###
+0
+;	<translation <x,y,z>>
+;	<radius>

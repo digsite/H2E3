@@ -1,0 +1,351 @@
+;### VERSION ###
+8210
+;	<8197-8210>
+
+;### NODES ###
+29
+;	<name>
+;	<parent node index>
+;	<default rotation <i,j,k,w>>
+;	<default translation <x,y,z>>
+
+;NODE 0
+b_hull
+-1
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-77.1436462402	-22.5525512695	148.6321258545
+
+;NODE 1
+b_chin_gun_arm
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+198.3527832031	0.0000610352	46.0799255371
+
+;NODE 2
+b_chin_gun
+1
+0.7071073055	0.0000000000	0.0000000000	0.7071062326
+268.2052612305	0.0000457764	-28.9636077881
+
+;NODE 3
+b_chin_gun_clamp
+1
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+208.6135864258	-5.0466308594	5.8503074646
+
+;NODE 4
+b_l_air_lock_a
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-118.6393432617	256.2879333496	235.1219940186
+
+;NODE 5
+b_l_air_lock_b
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-28.6393432617	256.2879333496	235.1219482422
+
+;NODE 6
+b_l_main_land_arm
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+159.3218383789	103.5540466309	122.3870086670
+
+;NODE 7
+b_l_land_hinges_bc
+6
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+159.3218383789	117.4616088867	88.6651611328
+
+;NODE 8
+b_l_land_hinge_a
+7
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+159.3941650391	80.7802124023	81.3528747559
+
+;NODE 9
+b_l_minor_land_arm
+6
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+159.3218078613	125.3791809082	54.5895767212
+
+;NODE 10
+b_l_land_feet
+9
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+161.0010223389	147.9889984131	20.0069427490
+
+;NODE 11
+b_l_rudder
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-321.6208496094	158.0170898438	207.6891784668
+
+;NODE 12
+b_l_turret_door
+0
+-0.4617488384	0.0000000000	0.0000000000	0.8870107532
+-73.6393432617	190.5030059814	158.8371582031
+
+;NODE 13
+b_l_turret_base
+12
+0.5000000596	0.5000000000	0.5000000000	0.5000000000
+-73.7115783691	267.8815307617	187.6699218750
+
+;NODE 14
+b_l_turret_chamber
+13
+0.0000000149	0.0000000346	-0.0000000012	1.0000000000
+-73.7118225098	276.3107604980	195.7309875488
+
+;NODE 15
+b_l_turret_slide
+14
+-0.0000000164	-0.0000000250	-0.0000000012	1.0000000000
+-73.7117919922	275.7119750977	204.9841613770
+
+;NODE 16
+b_r_air_lock_a
+0
+0.0000000000	0.0000000000	1.0000000000	0.0000000000
+-118.6393432617	-256.2879028320	235.1219482422
+
+;NODE 17
+b_r_air_lock_b
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-28.6393432617	-256.2879028320	235.1219482422
+
+;NODE 18
+b_r_main_land_arm
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+159.3218383789	-103.5540771484	122.3870086670
+
+;NODE 19
+b_r_land_hinges_bc
+18
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+159.3218383789	-117.4616394043	88.6651611328
+
+;NODE 20
+b_r_land_hinge_a
+19
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+159.3941650391	-80.7802581787	81.3528747559
+
+;NODE 21
+b_r_minor_land_arm
+18
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+159.3218078613	-125.3792114258	54.5895767212
+
+;NODE 22
+b_r_land_feet
+21
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+161.0010223389	-147.9890289307	20.0069427490
+
+;NODE 23
+b_r_rudder
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-321.6211547852	-158.0166015625	207.6891784668
+
+;NODE 24
+b_r_turret_door
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-73.6393432617	-190.5030212402	158.8371582031
+
+;NODE 25
+b_r_turret_base
+24
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-73.7116394043	-267.8815917969	187.6699066162
+
+;NODE 26
+b_r_turret_chamber
+25
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-73.7119140625	-276.3108215332	195.7309875488
+
+;NODE 27
+b_r_turret_slide
+26
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-73.7118835449	-275.7120361328	204.9841461182
+
+;NODE 28
+b_tail
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+-431.8919677734	0.0000000000	311.5377197266
+
+;### MATERIALS ###
+1
+;	<name>
+;	<material name>
+
+;MATERIAL 0
+phantom_exterior
+(3) L6 standard hull
+
+;### MARKERS ###
+0
+;	<name>
+;	<node index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;### INSTANCE XREF PATHS ###
+0
+;	<name>
+
+;### INSTANCE MARKERS ###
+0
+;	<name>
+;	<unique identifier>
+;	<path index>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+
+;### VERTICES ###
+0
+;	<position>
+;	<normal>
+;	<node influences count>
+;		<node influences <index, weight>>
+;		<...>
+;	<texture coordinate count>
+;		<texture coordinates <u,v>>
+;		<...>
+
+;### TRIANGLES ###
+0
+;	<material index>
+;	<vertex indices <v0,v1,v2>>
+
+;### SPHERES ###
+1
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<radius>
+
+;SPHERE 0
+phantom
+0
+0
+0.0000000000	0.0000000000	0.0000000000	1.0000000000
+77.1436462402	22.5525512695	60.9592437744
+253.2227935791
+
+;### BOXES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<width (x)>
+;	<length (y)>
+;	<height (z)>
+
+;### CAPSULES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<height>
+;	<radius>
+
+;### CONVEX SHAPES ###
+0
+;	<name>
+;	<parent>
+;	<material>
+;	<rotation <i,j,k,w>>
+;	<translation <x,y,z>>
+;	<vertex count>
+;	<...vertices>
+
+;### RAGDOLLS ###
+0
+;	<name>
+;	<attached index>
+;	<referenced index>
+;	<attached transform>
+;	<reference transform>
+;	<min twist>
+;	<max twist>
+;	<min cone>
+;	<max cone>
+;	<min plane>
+;	<max plane>
+
+;### HINGES ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min angle>
+;	<max angle>
+
+;### HINGES ###
+0
+;	<name>
+;	<chassis index>
+;	<wheel index>
+;	<chassis transform>
+;	<wheel transform>
+;	<suspension transform>
+;	<suspension min limit>
+;	<suspension max limit>
+;	<friction limit>
+;	<velocity>
+;	<gain>
+
+;### POINT TO POINT ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<constraint type>
+;	<x min limit>
+;	<x max limit>
+;	<y min limit>
+;	<y max limit>
+;	<z min limit>
+;	<z max limit>
+;	<spring length>
+
+;### PRISMATIC ###
+0
+;	<name>
+;	<body A index>
+;	<body B index>
+;	<body A transform>
+;	<body B transform>
+;	<is limited>
+;	<friction limit>
+;	<min limit>
+;	<max limit>
+
+;### BOUNDING SPHERE ###
+0
+;	<translation <x,y,z>>
+;	<radius>
+

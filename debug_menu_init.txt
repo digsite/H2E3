@@ -1,0 +1,353 @@
+<item type = command name = "Clear text" variable = "cls">
+<item type = command name = "Playground" variable = "map_name scenarios\\solo\\earthcity\\earthcity_playground\\earthcity_playground">
+<item type = command name = "Map Reset" variable = "map_reset">
+<item type = command name = "Game Revert" variable = "game_revert">
+<menu name = "Drop Objects">
+	<menu name = "Weapons">
+		<item type = command name = "  Frag Grenade" variable = "drop objects\\weapons\\grenade\\frag_grenade\\frag_grenade.equipment">
+		<item type = command name = "  SMG" variable = "drop objects\\weapons\\rifle\\smg\\smg.weapon">
+		<item type = command name = "  Battle Rifle" variable = "drop objects\\weapons\\rifle\\battle_rifle\\battle_rifle.weapon">
+		<item type = command name = "  Energy Sword" variable = "drop objects\\weapons\\melee\\energy_blade\\energy_blade.weapon">
+		<item type = command name = "  Jackal Shield" variable = "drop objects\\weapons\\melee\\jackal_shield\\jackal_shield.weapon">
+		<item type = command name = "  Plasma Pistol" variable = "drop objects\\weapons\\pistol\\plasma_pistol\\plasma_pistol.weapon">
+		<item type = command name = "  Brute Shot" variable = "drop objects\\weapons\\support_low\\brute_shot\\brute_shot.weapon">
+	</menu>
+	<menu name = "Vehicles">
+		<item type = command name = "  Warthog" variable = "drop objects\\vehicles\\warthog\\warthog">
+		<item type = command name = "  Gauss" variable = "drop objects\\vehicles\\warthog\\gauss">
+		<item type = command name = "  Hog Coop" variable = "drop objects\\vehicles\\warthog\\warthog_coop">
+		<item type = command name = "  Hog Play" variable = "drop objects\\vehicles\\warthog\\warthog_playground">
+		<item type = command name = "  Shadow" variable = "drop objects\\vehicles\\creep\\creep">
+		<item type = command name = "  Pelican" variable = "drop objects\\vehicles\\pelican\\pelican">
+		<item type = command name = "  Ghost" variable = "drop objects\\vehicles\\ghost\\ghost">
+		<item type = command name = "  Ghost Chucky" variable = "drop objects\\vehicles\\ghost\\ghost_chucky">
+		<item type = command name = "  Phantom" variable = "drop objects\\vehicles\\phantom\\phantom">
+	</menu>
+	<menu name = "Bipeds">
+		<item type = command name = "  Chief" variable = "drop objects\\characters\\masterchief\\masterchief">
+		<item type = command name = "  Elite" variable = "drop objects\\characters\\elite\\elite">
+		<item type = command name = "  Grunt" variable = "drop objects\\characters\\grunt\\grunt">
+		<item type = command name = "  Marine" variable = "drop objects\\characters\\marine\\marine">
+		<item type = command name = "  Jackal" variable = "drop objects\\characters\\jackal\\jackal">
+		<item type = command name = "  Brute" variable = "drop objects\\characters\\brute\\brute ">
+	</menu>
+</menu>
+<item type = command name = "Fade In 0,0,0,0" variable = "fade_in 0 0 0 0">
+<item type = command name = "Kill letterbox" variable = "cinematic_show_letterbox_immediate 0">
+
+<menu name = "Cheats">
+	<item type = command name = "teleport to camera" variable = "cheat_teleport_to_camera">
+	<item type = command name = "film replay" variable = "film_play_hack">
+	<item type = global name = "deathless player" variable = "cheat_deathless_player">
+	<item type = global name = "infinite ammo" variable = "cheat_infinite_ammo">
+	<item type = global name = "bottomless clip" variable = "cheat_bottomless_clip">
+	<item type = global name = "bump possession" variable = "cheat_bump_possession">
+	<item type = global name = "jetpack" variable = "cheat_jetpack">
+	<item type = global name = "medusa" variable = "cheat_medusa">
+	<item type = command name = "active camouflage" variable = "cheat_active_camouflage true">
+	<menu name = "Skulls">
+		<menu name = "Classic">
+			<item type = global name = "Arbiter Envy"                  variable = "debug_ice_cream_flavor_status_arbiter_envy">
+			<item type = global name = "Grunt Birthday Party"          variable = "debug_ice_cream_flavor_status_grunt_birthday_party">
+			<item type = global name = "Assasins"                      variable = "debug_ice_cream_flavor_status_assassins">
+			<item type = global name = "Thunderstorm"                  variable = "debug_ice_cream_flavor_status_thunderstorm">
+			<item type = global name = "Famine"                        variable = "debug_ice_cream_flavor_status_famine">
+			<item type = global name = "I would have been your daddy"  variable = "debug_ice_cream_flavor_status_i_would_have_been_your_daddy">
+			<item type = global name = "Blind"                         variable = "debug_ice_cream_flavor_status_blind">
+			<item type = global name = "Ghost"                         variable = "debug_ice_cream_flavor_status_ghost">
+			<item type = global name = "Black eye"                     variable = "debug_ice_cream_flavor_status_black_eye">
+			<item type = global name = "Catch"                         variable = "debug_ice_cream_flavor_status_catch">
+			<item type = global name = "Sputnik"                       variable = "debug_ice_cream_flavor_status_sputnik">
+			<item type = global name = "Iron"                          variable = "debug_ice_cream_flavor_status_iron">
+			<item type = global name = "Mythic"                        variable = "debug_ice_cream_flavor_status_mythic">
+			<item type = global name = "Anger"                         variable = "debug_ice_cream_flavor_status_anger">
+			<item type = global name = "That's just...wrong"           variable = "debug_ice_cream_flavor_status_thats_just_wrong">
+		</menu>
+
+		<menu name = "HCEX">
+			<item type = global name = "Bandanna"                      variable = "debug_ice_cream_flavor_status_bandanna">
+			<item type = global name = "Boom"                          variable = "debug_ice_cream_flavor_status_boom">
+			<item type = global name = "Eye Patch"                     variable = "debug_ice_cream_flavor_status_eye_patch">
+			<item type = global name = "Fog"                           variable = "debug_ice_cream_flavor_status_fog">
+			<item type = global name = "Foreign"                       variable = "debug_ice_cream_flavor_status_foreign">
+			<item type = global name = "Grunt Funeral"                 variable = "debug_ice_cream_flavor_status_grunt_funeral">
+			<item type = global name = "Pinata"                        variable = "debug_ice_cream_flavor_status_pinata">
+			<item type = global name = "Recession"                     variable = "debug_ice_cream_flavor_status_recession">
+			<item type = global name = "Malfunction"                   variable = "debug_ice_cream_flavor_status_malfunction">
+		</menu>
+
+		<menu name = "H2A">
+			<item type = global name = "Streaking"                     variable = "debug_ice_cream_flavor_status_streaking">
+			<item type = global name = "Jacked"                        variable = "debug_ice_cream_flavor_status_jacked">
+			<item type = global name = "Scarab"                        variable = "debug_ice_cream_flavor_status_scarab">
+			<item type = global name = "Styx"                          variable = "debug_ice_cream_flavor_status_styx">
+			<item type = global name = "Feather"                       variable = "debug_ice_cream_flavor_status_feather">
+			<item type = global name = "Bonded Pair (coop)"            variable = "debug_ice_cream_flavor_status_bonded_pair">
+			<item type = global name = "Masterblaster (coop)"          variable = "debug_ice_cream_flavor_status_masterblaster">
+			<item type = global name = "SO...ANGRY..."                 variable = "debug_ice_cream_flavor_status_so_angry">
+			<item type = global name = "Prophet Birthday Party"        variable = "debug_ice_cream_flavor_status_prophet_birthday_party">
+			<item type = global name = "They Come Back"                variable = "debug_ice_cream_flavor_status_they_come_back">
+		</menu>
+		<item type = global name = "Debug coop skulls in single"      variable = "debug_ice_cream_flavor_force_coop">
+	</menu>
+</menu>
+
+<menu name = "Game">
+	<item type = global name = "game speed" inc = 0.5 min = 0.0 max = 5.0 variable = "game_speed">
+	<item type = global name = "game speed (fine tuning)" inc = 0.1 min = 0.0 max = 5.0 variable = "game_speed">
+	<item type = global name = "display framerate" variable = "display_framerate">
+	<item type = command name = "game save immediate" variable = "game_save_immediate">
+	<item type = command name = "core save" variable = "core_save">
+	<item type = command name = "core load" variable = "core_load">
+	<item type = global name = "render comment flags" variable = "render_comment_flags">
+	<item type = global name = "render comment flags text" variable = "render_comment_flags_text">
+	<item type = global name = "render comment look at point" variable = "render_comment_flags_look_at">
+	<item type = global name = "controller flag drop" variable = "enable_controller_flag_drop">
+	<item type = command name = "export comment flags (to vrml)" variable = "flags_save">
+	<item type = command name = "clear comment flags" variable = "flags_clear">
+	<item type = command name = "display hud" variable = "show_hud">
+</menu>
+
+<menu name = "AI">
+	<item type = command name = "ai enable" variable = "ai_enable 1">
+	<item type = command name = "ai disable" variable = "ai_enable 0">
+	<item type = global name = "Debug Scripting" variable = "debug_scripting">
+	<item type = global name = "invisible player" variable = "ai_debug_invisible_player">
+	<item type = global name = "render orders" variable = "ai_render_orders">
+	<item type = global name = "render behavior stack all" variable = "ai_render_behavior_stack_all">
+	<item type = global name = "render command scripts" variable = "ai_render_command_scripts">
+	<item type = global name = "render pathfinding" variable = "ai_render_paths">
+	<item type = global name = "render non-walkable sectors" variable = "ai_render_non_walkable_sectors">
+	<item type = global name = "render active object hints" variable = "ai_render_object_hints">
+	<item type = global name = "render all object hints" variable = "ai_render_object_hints_all">
+	<item type = command name = "erase all AI" variable = "ai_erase_all">
+</menu>
+
+<menu name = "Objects">
+	<item type = global name = "debug effects names" variable = "debug_effect_names">
+	<item type = global name = "debug objects" variable = "debug_objects">
+	<item type = global name = "debug objects player only" variable = "debug_objects_player_only">
+	<menu name = "debug objects options">
+		<item type = global name = "names" variable = "debug_objects_names">
+		<item type = global name = "freeze vehicles" variable = "debug_freeze_vehicles">
+		<item type = global name = "bounding spheres" variable = "debug_objects_bounding_spheres">
+		<item type = global name = "render dynamic bounding spheres" variable = "debug_objects_dynamic_render_bounding_spheres">
+		<item type = global name = "collision models" variable = "debug_objects_collision_models">
+		<item type = global name = "pathfinding spheres" variable = "debug_objects_pathfinding">
+		<item type = global name = "contact points" variable = "debug_objects_contact_points">
+		<item type = global name = "model targets" variable = "debug_objects_model_targets">
+		<item type = global name = "unit state" variable = "debug_objects_unit_state">
+		<item type = global name = "sound spheres" variable = "debug_objects_sound_spheres">
+		<item type = global name = "constraints" variable = "debug_objects_constraints">
+		<item type = global name = "vehicle physics" variable = "debug_objects_vehicle_physics">
+		<item type = global name = "mass" variable = "debug_objects_mass">
+		<item type = global name = "physics models" variable = "debug_objects_physics_models">
+		<item type = global name = "biped autoaim pills" variable = "debug_objects_biped_autoaim_pills">
+		<item type = global name = "ground plane" variable = "debug_objects_ground_plane">
+		<item type = global name = "movement mode" variable = "debug_objects_movement_mode">
+		<item type = global name = "phyiscs control node" variable = "debug_objects_physics_control_node">
+		<item type = global name = "early movers" variable = "debug_objects_early_movers">
+		<item type = global name = "unit pathfinding surface" variable = "debug_objects_unit_pathfinding_surface">
+	</menu>
+
+	<item type = global name = "render objects" variable = "render_objects">
+	<item type = global name = "render model costs" variable = "render_model_cost">
+	<item type = global name = "render model markers" variable = "render_model_markers">
+	<item type = global name = "debug collision" variable = "collision_debug">
+
+	<menu name = "damage debugging">
+			<item type = global name = "debug damage" variable = "debug_damage">
+			<item type = global name = "debug damage radius" variable = "debug_damage_radius">
+			<item type = global name = "debug damage verbose" variable = "debug_damage_verbose">
+			<item type = global name = "reflexive damage" variable = "cheat_reflexive_damage_effects">
+	</menu>
+
+</menu>
+
+<menu name = "Environment">
+	<item type = global name = "debug structure" variable = "debug_structure">
+	<item type = global name = "debug structure automatic" variable = "debug_structure_automatic">
+	<item type = global name = "render portals" variable = "visibility_debug_portals">
+	<item type = global name = "render freeze" variable = "debug_render_freeze">
+	<item type = global name = "render environment" variable = "render_environment">
+	<item type = global name = "render poops" variable = "render_instanced_geometry">
+	<item type = command name = "error geometry hide all" variable = "error_geometry_hide_all">
+	<item type = command name = "error geometry show all" variable = "error_geometry_show_all">
+</menu>
+
+<menu name = "Lighting">
+	<item type = global name = "default lighting" variable = "render_default_lighting">
+	<item type = global name = "debug lights" variable = "debug_lights">
+	<item type = global name = "debug shadow" variable = "ssc_debug">
+	<item type = global name = "debug shadow lights" variable = "ssc_debug_lights">
+	<item type = global name = "fog" variable = "render_fog">
+	<item type = global name = "debug object lighting" variable = "render_debug_object_lighting">
+	<item type = global name = "render layers default(0)/lightmaps(1)/texaccum(2)" inc = 1 min = 0 max = 2 variable = "render_debug_toggle_default_lightmaps_texaccum">
+	<item type = global name = "lightmap pointsample" variable = "lightmap_pointsample">
+</menu>
+
+<menu name = "Rasterizer">
+	<item type = global name = "render some text" variable = "terminal_render">
+	<item type = global name = "render other text" variable = "console_status_string_render">
+	<item type = global name = "render diffuse textures" inc = 1.0 min = 0.0 max = 1.0 variable = "ssc_texture_diffuse">
+	<item type = global name = "viewport scale" inc = .05 min = .25 max = 1.0 variable = "ssc_viewport_scale">
+	<item type = global name = "render opaque" variable = "render_submit_opaque">
+	<item type = global name = "render transparents" variable = "render_submit_transparent">
+	<menu name = "Particles">
+		<item type = global name = "render particles" variable = "render_psystems">
+		<item type = global name = "debug emitters" variable = "render_debug_emitters">
+		<item type = global name = "show bounding spheres" variable = "render_debug_locations">
+		<item type = global name = "debug particles" variable = "render_debug_particles">
+	</menu>
+</menu>
+
+<menu name = "Profile">
+	<item type = global name = "profile display (off, gpu, cpu)" inc = 1 min = 0 max = 2 variable = "rasterizer_artist_profile">
+	<item type = command name = "overdraw effects (z compare on)" variable = "rasterizer_overdraw_z">
+	<item type = command name = "overdraw (z compare off)" variable = "rasterizer_overdraw">
+	<item type = command name = "layer overdraw effects (z compare on)" variable = "rasterizer_layers_overdraw_z">
+	<item type = command name = "layer overdraw (z compare off)" variable = "rasterizer_layers_overdraw">
+	<item type = global name = "render profile" variable = "render_submit_profile">
+	<item type = global name = "infinite framerate" variable = "render_debug_infinite_framerate">
+</menu>
+
+<menu name = "Physics">
+	<item type = global name = "physics debug" variable = "physics_debug">
+	<item type = global name = "render stats" variable = "havok_display_stats">
+	<item type = global name = "impacts debug" variable = "impacts_debug">
+	<item type = global name = "collision damage debug" variable = "collision_damage_debug">
+	<item type = global name = "enable impact effects" variable = "havok_play_impact_effects">
+</menu>
+
+<menu name = "Multiplayer">
+	<menu name = "Net_sim">
+		<item type = global name = "Net Sim on off" variable = "net_sim">
+		<menu name = "Latency">
+			<item type = global name = "Net Sim Latency (ms)" inc = 10 min = 0 max = 500 variable = "net_sim_latency">
+			<item type = global name = "Net Sim Latency Period (ms)" inc = 100 min = 0 max = 30000 variable = "net_sim_latency_period">
+			<item type = global name = "Net Sim Latency wander (ms)" inc = 10 min = 0 max = 500 variable = "net_sim_latency_wander">
+			<item type = global name = "Net Sim Latency random (ms)" inc = 10 min = 0 max = 500 variable = "net_sim_latency_random">
+			<item type = global name = "Net Sim Latency spike amount (ms)" inc = 10 min = 0 max = 500 variable = "net_sim_spike_amount">
+			<item type = global name = "Net Sim Latency spike chance (.1%)" inc = 10 min = 0 max = 1000 variable = "net_sim_spike_chance">
+			<item type = global name = "Net Sim Latency spike duration (ms)" inc = 10 min = 0 max = 500 variable = "net_sim_spike_duration">
+		</menu>
+		<menu name = "Bandwidth">
+			<item type = global name = "Net Sim upstream Bandwidth (kbps)" inc = 20 min = 0 max = 1000 variable = "net_sim_bandwidth_up_rate">
+			<item type = global name = "Net Sim upstream Bandwidth buffer (kB)" inc = 10 min = 0 max = 250 variable = "net_sim_bandwidth_up_buffer">
+			<item type = global name = "Net Sim downstream Bandwidth (kbps)" inc = 20 min = 0 max = 1000 variable = "net_sim_bandwidth_down_rate">
+			<item type = global name = "Net Sim upstream Bandwidth buffer (kB)" inc = 10 min = 0 max = 250 variable = "net_sim_bandwidth_down_buffer">
+		</menu>
+		<menu name = "Packet Loss">
+			<item type = global name = "Net Sim drop (.1%)" inc = 5 min = 0 max = 1000 variable = "net_sim_drop">
+			<item type = global name = "Net Sim drop spike amount (.1%)" inc = 5 min = 0 max = 1000 variable = "net_sim_dropspike_amount">
+			<item type = global name = "Net Sim drop spike chance (.1%)" inc = 5 min = 0 max = 1000 variable = "net_sim_dropspike_chance">
+			<item type = global name = "Net Sim drop spike duration (ms)" inc = 100 min = 0 max = 10000 variable = "net_sim_dropspike_duration">
+		</menu>
+		<item type = command name = "Net Sim Latency spike now" variable = "net_sim_spike_now">
+		<item type = command name = "Net Sim drop spike now" variable = "net_sim_dropspike_now">
+		<item type = command name = "Reset simulation state" variable = "net_sim_reset">
+	</menu>
+	<menu name = "Net Status">
+		<item type = global name = "Channels" variable = "net_status_channels">
+		<item type = global name = "connections" variable = "net_status_connections">
+		<item type = global name = "Link" variable = "net_status_link">
+		<item type = global name = "Memory" variable = "net_status_memory">
+		<item type = global name = "Message Queues" variable = "net_status_message_queues">
+		<item type = global name = "Observer" variable = "net_status_observer">
+		<item type = global name = "Sessions" variable = "net_status_sessions">
+		<item type = global name = "Simulation" variable = "net_status_sim">
+	</menu>
+	<item type = command name = "Game won" variable = "game_won">
+	<item type = command name = "Game lost" variable = "game_lost">
+	<item type = command name = "Display Session Data" variable = "data_mine_display_session_data">
+</menu>
+
+<menu name = "Test">
+	<item type = command name = "enable automatic core uploads (every 3 min)" variable = "core_regular_upload_to_debug_server true">
+	<item type = command name = "disable automatic core uploads" variable = "core_regular_upload_to_debug_server false">
+	<item type = command name = "Map Info" variable = "map_info">
+	<item type = command name = "Enable Text Bounds" variable = "ui_debug_text_bounds 1">
+	<item type = command name = "Disable Text Bounds" variable = "ui_debug_text_bounds 0">
+	<item type = command name = "Show Title Safe Bounds" variable = "ui_debug_show_title_safe_bounds 1">
+	<item type = command name = "Hide Title Safe Bounds" variable = "ui_debug_show_title_safe_bounds 0">
+	<item type = command name = "Display Encounter Info" variable = "data_mine_display_mission_segment 1">
+	<item type = command name = "Disable Encounter Info" variable = "data_mine_display_mission_segment 0">
+	<item type = global name = "Trigger Volumes" variable = "debug_trigger_volumes">
+</menu>
+
+<menu name = "Bug">
+	<item type = command name = "bug now auto (no minidump)" variable = "bug_now_auto false">
+	<item type = command name = "bug now auto (minidump)" variable = "bug_now_auto true">
+</menu>
+
+<menu name = "Audio">
+	<item type = global name = "debug sound channels" variable = "debug_sound_channels">
+	<item type = global name = "stereo weapon fire force 3d" variable = "debug_sound_stereo_weapon_fire_force_3d">
+	<item type = global name = "stereo weapon fire left scale" inc = 0.05 min = 0.0 max = 1.0 variable = "debug_sound_stereo_weapon_fire_left_scale">
+	<item type = global name = "stereo weapon fire right scale" inc = 0.05 min = 0.0 max = 1.0 variable = "debug_sound_stereo_weapon_fire_right_scale">
+
+
+	<item type = command name = "sound channels show all" variable = "sound_class_show_channel \"\" on">
+	<item type = command name = "sound channels hide all" variable = "sound_class_show_channel \"\" off">
+	<menu name = "debug sound channels show info">
+		<item type = global name = "filter names" variable = "debug_sound_channels_filters">
+		<item type = global name = "channel type" variable = "debug_sound_channels_type">
+		<item type = global name = "sound class" variable = "debug_sound_channels_sound_class">
+		<item type = global name = "volume level per speaker" variable = "debug_sound_channels_levels">
+	</menu>
+	<menu name = "debug sound channels options">
+		<item type = command name = "show projectile" variable = "sound_class_show_channel projectile on">
+		<item type = command name = "hide projectile" variable = "sound_class_show_channel projectile off">
+		<item type = command name = "show weapons" variable = "sound_class_show_channel weapon on">
+		<item type = command name = "hide weapons" variable = "sound_class_show_channel weapon off">
+		<item type = command name = "show objects" variable = "sound_class_show_channel object on">
+		<item type = command name = "hide objects" variable = "sound_class_show_channel object off">
+		<item type = command name = "show particles" variable = "sound_class_show_channel particle on">
+		<item type = command name = "hide particles" variable = "sound_class_show_channel particle off">
+		<item type = command name = "show units" variable = "sound_class_show_channel unit on">
+		<item type = command name = "hide units" variable = "sound_class_show_channel unit off">
+		<item type = command name = "show vehicles" variable = "sound_class_show_channel vehicle on">
+		<item type = command name = "hide vehicles" variable = "sound_class_show_channel vehicle off">
+		<item type = command name = "show devices" variable = "sound_class_show_channel device on">
+		<item type = command name = "hide devices" variable = "sound_class_show_channel device off">
+		<item type = command name = "show music" variable = "sound_class_show_channel music on">
+		<item type = command name = "hide music" variable = "sound_class_show_channel music off">
+		<item type = command name = "show ambience" variable = "sound_class_show_channel ambient on">
+		<item type = command name = "hide ambience" variable = "sound_class_show_channel ambient off">
+		<item type = command name = "show dialog" variable = "sound_class_show_channel dialog on">
+		<item type = command name = "hide dialog" variable = "sound_class_show_channel dialog off">
+	</menu>
+	<item type = global name = "debug sound transmission" variable = "debug_sound_transmission">
+	<item type = command name = "all sound enable on" variable = "debug_sounds_enable \"\" on">
+	<item type = command name = "all sound enable off" variable = "debug_sounds_enable \"\" off">
+	<menu name = "sound enable options">
+		<item type = command name = "weapon sounds on" variable = "debug_sounds_enable weapon on">
+		<item type = command name = "weapon sounds off" variable = "debug_sounds_enable weapon off">
+		<item type = command name = "projectile sounds on" variable = "debug_sounds_enable projectile on">
+		<item type = command name = "projectile sounds off" variable = "debug_sounds_enable projectile off">
+		<item type = command name = "object sounds on" variable = "debug_sounds_enable object on">
+		<item type = command name = "object sounds off" variable = "debug_sounds_enable object off">
+		<item type = command name = "particle sounds on" variable = "debug_sounds_enable particle on">
+		<item type = command name = "particle sounds off" variable = "debug_sounds_enable particle off">
+		<item type = command name = "unit sounds on" variable = "debug_sounds_enable unit on">
+		<item type = command name = "unit sounds off" variable = "debug_sounds_enable unit off">
+		<item type = command name = "vehicle sounds on" variable = "debug_sounds_enable vehicle on">
+		<item type = command name = "vehicle sounds off" variable = "debug_sounds_enable vehicle off">
+		<item type = command name = "device sounds on" variable = "debug_sounds_enable device on">
+		<item type = command name = "device sounds off" variable = "debug_sounds_enable device off">
+		<item type = command name = "music sounds on" variable = "debug_sounds_enable music on">
+		<item type = command name = "music sounds off" variable = "debug_sounds_enable music off">
+		<item type = command name = "ambience sounds on" variable = "debug_sounds_enable ambient on">
+		<item type = command name = "ambience sounds off" variable = "debug_sounds_enable ambient off">
+		<item type = command name = "dialog sounds on" variable = "debug_sounds_enable dialog on">
+		<item type = command name = "dialog sounds off" variable = "debug_sounds_enable dialog off">
+	</menu>
+	<item type = global name = "debug sound environment" variable = "debug_sound_environment">
+	<item type = global name = "debug_speaker_output_peak" variable = "debug_speaker_output_peak">
+	<item type = global name = "debug_speaker_output_rms" variable = "debug_speaker_output_rms">
+	<item type = command name = "cheat_all_weapons" variable = "cheat_all_weapons">
+</menu>
+
+<menu name = "Menu">
+	<item type = command name = "Reparse Debug Menu" variable = "debug_menu_rebuild">
+</menu>
