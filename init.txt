@@ -1,0 +1,1 @@
+game_start scenarios\solo\earthcity\earthcity_e3\earthcity_e3

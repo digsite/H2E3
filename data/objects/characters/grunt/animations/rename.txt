@@ -1,0 +1,567 @@
+;; RENAME - GRUNT
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; missile crouch ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+crouch missile aim-move-down	=	combat missile aim-move-down
+crouch missile aim-move-up	=	combat missile aim-move-up
+crouch missile aim-still-up	=	combat missile aim-still-up
+crouch missile airborne		=	combat missile airborne
+crouch missile deploy		=	combat missile deploy
+crouch missile dive-front	=	combat missile dive-front
+crouch missile dive-left	=	combat missile dive-left
+crouch missile dive-right	=	combat missile dive-right
+crouch missile evade-left	=	combat missile evade-left
+crouch missile evade-right	=	combat missile evade-right
+crouch missile idle		=	combat missile idle
+crouch missile land-hard	=	combat missile land-hard
+crouch missile land-soft	=	combat missile land-soft
+crouch missile move-back	=	combat missile move-back
+crouch missile move-front var0	=	combat missile move-front var0
+crouch missile move-left	=	combat missile move-left
+crouch missile move-right	=	combat missile move-right
+crouch missile posing var1	=	combat missile posing var1
+crouch missile ready		=	combat missile ready
+crouch missile rl fire-1	=	combat missile rl fire-1	
+crouch missile smash-left	=	combat missile smash-left
+crouch missile smash-right	=	combat missile smash-right
+crouch missile surprise-back	=	combat missile surprise-back
+crouch missile surprise-front	=	combat missile surprise-front
+crouch missile turn-left	=	combat missile turn-left
+crouch missile turn-right	=	combat missile turn-right
+crouch missile warn		=	combat missile warn
+crouch missile idle 2 combat move-back	=	combat missile idle 2 combat move-back
+crouch missile idle 2 combat move-front	=	combat missile idle 2 combat move-front
+crouch missile idle 2 combat move-left	=	combat missile idle 2 combat move-left
+crouch missile idle 2 combat move-right	=	combat missile idle 2 combat move-right
+crouch missile move-back 2 combat idle	=	combat missile move-back 2 combat idle
+crouch missile move-front 2 combat idle	=	combat missile move-front 2 combat idle
+crouch missile move-left 2 combat idle	=	combat missile move-left 2 combat idle
+crouch missile move-right 2 combat idle	=	combat missile move-right 2 combat idle
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; more crouch ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+                        crouch pistol turn-left                	=       combat pistol turn-left
+                        crouch pistol turn-right                =       combat pistol turn-right
+
+                        crouch unarmed aim-still-up             =       crouch pistol aim-still-up
+                        crouch unarmed idle                     =       crouch pistol idle
+                        crouch unarmed move-front               =       crouch pistol move-front
+                        crouch unarmed move-left                =       crouch pistol move-left
+                        crouch unarmed move-right               =       crouch pistol move-right
+                        crouch unarmed turn-left                =       combat pistol turn-left
+                        crouch unarmed turn-right               =       combat pistol turn-right
+
+
+
+		;; crouch
+
+                        ;;crouch unarmed aim-still-up             =       crouch pistol aim-still-up
+                        ;;crouch unarmed idle                     =       crouch pistol idle
+                        ;;crouch unarmed move-front               =       crouch pistol move-front
+                        ;;crouch unarmed move-left                =       crouch pistol move-left
+                        ;;crouch unarmed move-right               =       crouch pistol move-right
+                        ;;crouch unarmed turn-left                =       crouch pistol turn-left
+                        ;;crouch unarmed turn-right               =       crouch pistol turn-right
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; patrol ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                      
+
+                ;; combat
+                        combat unarmed aim-move-up              =       combat pistol aim-move-up
+			combat unarmed aim-move-down            =       combat pistol aim-move-down
+                        combat unarmed aim-still-up             =       combat pistol aim-still-up
+			combat unarmed aim-still-down           =       combat pistol aim-still-down
+                        combat unarmed idle  var0               =       combat pistol idle var0
+                        combat unarmed land-hard                =       combat pistol land-hard
+                        combat unarmed land-soft                =       combat pistol land-soft
+                        combat unarmed move-back                =       combat pistol move-back
+                        combat unarmed move-front var0          =       combat pistol move-front var0
+                        combat unarmed move-left                =       combat pistol move-left
+                        combat unarmed move-right               =       combat pistol move-right
+                        combat unarmed ready                    =       combat pistol ready
+                        combat unarmed throw-grenade      	=       combat pistol throw-grenade 
+                        combat unarmed turn-left                =       combat pistol turn-left
+                        combat unarmed turn-right               =       combat pistol turn-right
+			combat unarmed dive-front		=	combat pistol dive-front		
+			combat unarmed dive-left		=	combat pistol dive-left
+			combat unarmed dive-right		=	combat pistol dive-right
+			combat unarmed evade-left		=	combat pistol evade-left
+			combat unarmed evade-right		=	combat pistol evade-right
+                       
+
+patrol look			=		combat look
+c_turret_ap look		=		combat look
+flee look			=		combat look
+stunned look			=		combat look
+panic unarmed look		=		combat look
+ghost_d look			=		combat look
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; vehicles ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                        	                 
+;c_dropship_d enter		=	ghost_d enter
+;c_dropship_p_l01 enter		=	ghost_d enter
+;c_dropship_p_l02 enter		=	ghost_d enter
+;c_dropship_p_l03 enter		=	ghost_d enter
+;c_dropship_p_l04 enter		=	ghost_d enter
+;c_dropship_p_r01 enter		=	ghost_d enter
+;c_dropship_p_r02 enter		=	ghost_d enter
+;c_dropship_p_r03 enter		=	ghost_d enter
+;c_dropship_p_r04 enter		=	ghost_d enter
+;c_dropship_g enter		=	ghost_d enter
+;c_dropship_sc_01 enter		=	ghost_d enter
+;c_dropship_sc_02 enter		=	ghost_d enter
+;c_dropship_sc_03 enter		=	ghost_d enter
+;c_dropship_lc enter		=	ghost_d enter
+                        	                 
+;h_turret_ap_d enter		=	ghost_d enter
+                        	                 
+                        	                 
+;longsword_d enter		=	ghost_d enter
+                        	                 
+;mongoose_d enter		=	ghost_d enter
+                        	                 
+;pelican_d  enter		=	ghost_d enter
+;pelican_p_l01 enter		=	ghost_d enter
+;pelican_p_l02 enter		=	ghost_d enter
+;pelican_p_l03 enter		=	ghost_d enter
+;pelican_p_l04 enter		=	ghost_d enter
+;pelican_p_l05 enter		=	ghost_d enter
+;pelican_p_r01 enter		=	ghost_d enter
+;pelican_p_r02 enter		=	ghost_d enter
+;pelican_p_r03 enter		=	ghost_d enter
+;pelican_p_r04 enter		=	ghost_d enter
+;pelican_p_r05 enter		=	ghost_d enter
+;pelican_g enter			=	ghost_d enter
+;pelican_lc enter		=	ghost_d enter
+                        	                 
+;throne_d enter			=	ghost_d enter
+
+phantom_d idle		=	ghost_d unarmed idle var0
+phantom_p_copilot idle		=	ghost_d unarmed idle var0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; phantom passenger ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+phantom_p_a02 any any idle	=	phantom_p_a01 any any idle
+phantom_p_a03 any any idle	=	phantom_p_a01 any any idle
+phantom_p_b01 any any idle	=	phantom_p_a01 any any idle
+phantom_p_b02 any any idle	=	phantom_p_a01 any any idle
+phantom_p_b03 any any idle	=	phantom_p_a01 any any idle
+phantom_p_c01 any any idle	=	phantom_p_a01 any any idle
+phantom_p_c02 any any idle	=	phantom_p_a01 any any idle
+phantom_p_c03 any any idle	=	phantom_p_a01 any any idle
+
+phantom_p_b01 any any exit	=	phantom_p_a01 any any exit
+phantom_p_b02 any any exit	=	phantom_p_a02 any any exit
+phantom_p_b03 any any exit	=	phantom_p_a03 any any exit
+phantom_p_c01 any any exit	=	phantom_p_a01 any any exit
+phantom_p_c02 any any exit	=	phantom_p_a02 any any exit
+phantom_p_c03 any any exit	=	phantom_p_a03 any any exit
+                        	                 
+phantom_p_l01 any any idle	=	combat pistol idle var0
+phantom_p_l02 any any idle	=	combat pistol idle var0
+phantom_p_l03 any any idle	=	combat pistol idle var0
+phantom_p_l04 any any idle	=	combat pistol idle var0
+phantom_p_l05 any any idle	=	combat pistol idle var0
+phantom_p_l06 any any idle	=	combat pistol idle var0
+
+phantom_p_r01 any any idle	=	combat pistol idle var0
+phantom_p_r02 any any idle	=	combat pistol idle var0
+phantom_p_r03 any any idle	=	combat pistol idle var0
+phantom_p_r04 any any idle	=	combat pistol idle var0
+phantom_p_r05 any any idle	=	combat pistol idle var0
+phantom_p_r06 any any idle	=	combat pistol idle var0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;; Creep look ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+creep_p_l01 look		=	combat look
+creep_p_l02 look		=	combat look
+creep_p_l03 look		=	combat look
+creep_p_l04 look		=	combat look
+creep_p_r01 look		=	combat look
+creep_p_r02 look		=	combat look
+creep_p_r03 look		=	combat look
+creep_p_r04 look		=	combat look
+creep_p_m01 look		=	combat look
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;; Creep Enter ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+creep_p_l01 enter		=	creep_p_r02 enter
+creep_p_l02 enter		=	creep_p_r02 enter
+creep_p_l03 enter		=	creep_p_r02 enter
+creep_p_l04 enter		=	creep_p_r02 enter
+creep_p_r01 enter		=	creep_p_r02 enter
+creep_p_r03 enter		=	creep_p_r02 enter
+creep_p_r04 enter		=	creep_p_r02 enter
+creep_p_m01 enter		=	creep_p_r02 enter
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;; Creep Exit ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+creep_p_l01 exit		=	creep_p_r02 exit
+creep_p_l02 exit		=	creep_p_r02 exit
+creep_p_l03 exit		=	creep_p_r02 exit
+creep_p_l04 exit		=	creep_p_r02 exit
+creep_p_r01 exit		=	creep_p_r02 exit
+creep_p_r03 exit		=	creep_p_r02 exit
+creep_p_r04 exit		=	creep_p_r02 exit
+creep_p_m01 exit		=	creep_p_r02 exit
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;; Creep Accelateration Screens ;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+creep_p_r01 acc-front-back		=	creep_p_r02 acc-front-back
+creep_p_r03 acc-front-back		=	creep_p_r02 acc-front-back
+creep_p_r04 acc-front-back		=	creep_p_r02 acc-front-back
+creep_p_l01 acc-front-back		=	creep_p_r02 acc-front-back
+creep_p_l02 acc-front-back		=	creep_p_r02 acc-front-back
+creep_p_l03 acc-front-back		=	creep_p_r02 acc-front-back
+creep_p_l04 acc-front-back		=	creep_p_r02 acc-front-back
+
+creep_p_r01 acc-left-right		=	creep_p_r02 acc-left-right
+creep_p_r03 acc-left-right		=	creep_p_r02 acc-left-right
+creep_p_r04 acc-left-right		=	creep_p_r02 acc-left-right
+creep_p_l01 acc-left-right		=	creep_p_r02 acc-left-right
+creep_p_l02 acc-left-right		=	creep_p_r02 acc-left-right
+creep_p_l03 acc-left-right		=	creep_p_r02 acc-left-right
+creep_p_l04 acc-left-right		=	creep_p_r02 acc-left-right
+
+creep_p_r01 acc-up-down		=	creep_p_r02 acc-up-down
+creep_p_r03 acc-up-down		=	creep_p_r02 acc-up-down
+creep_p_r04 acc-up-down		=	creep_p_r02 acc-up-down
+creep_p_l01 acc-up-down		=	creep_p_r02 acc-up-down
+creep_p_l02 acc-up-down		=	creep_p_r02 acc-up-down
+creep_p_l03 acc-up-down		=	creep_p_r02 acc-up-down
+creep_p_l04 acc-up-down		=	creep_p_r02 acc-up-down
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;; Creep Idles ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+creep_p_l01 pistol idle		=	creep_p idle var0
+creep_p_l02 pistol idle		=	creep_p idle var0
+creep_p_l03 pistol idle		=	creep_p idle var0
+creep_p_l04 pistol idle		=	creep_p idle var0
+creep_p_r01 pistol idle		=	creep_p idle var0
+creep_p_r02 pistol idle		=	creep_p idle var0
+creep_p_r03 pistol idle		=	creep_p idle var0
+creep_p_r04 pistol idle		=	creep_p idle var0
+creep_p_m01 pistol idle		=	creep_p idle var0
+
+creep_p_r01 missile idle	=	creep_p_r02 missile idle
+creep_p_r03 missile idle	=	creep_p_r02 missile idle
+creep_p_r04 missile idle	=	creep_p_r02 missile idle
+creep_p_l01 missile idle	=	creep_p_r02 missile idle
+creep_p_l02 missile idle	=	creep_p_r02 missile idle
+creep_p_l03 missile idle	=	creep_p_r02 missile idle
+creep_p_l04 missile idle	=	creep_p_r02 missile idle
+
+creep_p_l01 any idle		=	creep_p idle var0
+creep_p_l02 any idle		=	creep_p idle var0
+creep_p_l03 any idle		=	creep_p idle var0
+creep_p_l04 any idle		=	creep_p idle var0
+creep_p_r01 any idle		=	creep_p idle var0
+creep_p_r02 any idle		=	creep_p idle var0
+creep_p_r03 any idle		=	creep_p idle var0
+creep_p_r04 any idle		=	creep_p idle var0
+creep_p_m01 any idle		=	creep_p idle var0
+
+; copy the idle to the unarmed slot for the driver
+creep_d unarmed idle		=	creep_d idle var0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;; Creep Aiming Screens ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+creep_p_l01 pistol aim-still-up		=	combat pistol aim-still-up
+creep_p_l02 pistol aim-still-up		=	combat pistol aim-still-up
+creep_p_l03 pistol aim-still-up		=	combat pistol aim-still-up
+creep_p_l04 pistol aim-still-up		=	combat pistol aim-still-up
+creep_p_r01 pistol aim-still-up		=	combat pistol aim-still-up
+creep_p_r02 pistol aim-still-up		=	combat pistol aim-still-up
+creep_p_r03 pistol aim-still-up		=	combat pistol aim-still-up
+creep_p_r04 pistol aim-still-up		=	combat pistol aim-still-up
+
+creep_p_l01 missile aim-still-up	=	combat missile aim-still-up
+creep_p_l02 missile aim-still-up	=	combat missile aim-still-up
+creep_p_l03 missile aim-still-up	=	combat missile aim-still-up
+creep_p_l04 missile aim-still-up	=	combat missile aim-still-up
+creep_p_r01 missile aim-still-up	=	combat missile aim-still-up
+creep_p_r02 missile aim-still-up	=	combat missile aim-still-up
+creep_p_r03 missile aim-still-up	=	combat missile aim-still-up
+creep_p_r04 missile aim-still-up	=	combat missile aim-still-up
+
+creep_p_r01 any aim-still-up		=		combat pistol aim-still-up
+creep_p_r02 any aim-still-up		=		combat pistol aim-still-up
+creep_p_r03 any aim-still-up		=		combat pistol aim-still-up
+creep_p_r04 any aim-still-up		=		combat pistol aim-still-up
+creep_p_l01 any aim-still-up		=		combat pistol aim-still-up
+creep_p_l02 any aim-still-up		=		combat pistol aim-still-up
+creep_p_l03 any aim-still-up		=		combat pistol aim-still-up
+creep_p_l04 any aim-still-up		=		combat pistol aim-still-up
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Creep Fire ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+creep_p_l01 pistol fire-1 		=	combat pistol ne fire-1
+creep_p_l02 pistol fire-1 		=	combat pistol ne fire-1
+creep_p_l03 pistol fire-1 		=	combat pistol ne fire-1
+creep_p_l04 pistol fire-1 		=	combat pistol ne fire-1
+creep_p_r01 pistol fire-1 		=	combat pistol ne fire-1
+creep_p_r02 pistol fire-1 		=	combat pistol ne fire-1
+creep_p_r03 pistol fire-1 		=	combat pistol ne fire-1
+creep_p_r04 pistol fire-1 		=	combat pistol ne fire-1
+
+
+creep_p_r01 any fire-1		=	combat pistol ne fire-1
+creep_p_r02 any fire-1		=	combat pistol ne fire-1
+creep_p_r03 any fire-1		=	combat pistol ne fire-1
+creep_p_r04 any fire-1		=	combat pistol ne fire-1
+creep_p_i01 any fire-1		=	combat pistol ne fire-1
+creep_p_i02 any fire-1		=	combat pistol ne fire-1
+creep_p_i03 any fire-1		=	combat pistol ne fire-1
+creep_p_i04 any fire-1		=	combat pistol ne fire-1
+
+creep_p_r01 missile fire-1		=	combat missile rl fire-1
+creep_p_r02 missile fire-1		=	combat missile rl fire-1
+creep_p_r03 missile fire-1		=	combat missile rl fire-1
+creep_p_r04 missile fire-1		=	combat missile rl fire-1
+creep_p_l01 missile fire-1		=	combat missile rl fire-1
+creep_p_l02 missile fire-1		=	combat missile rl fire-1
+creep_p_l03 missile fire-1		=	combat missile rl fire-1
+creep_p_l04 missile fire-1		=	combat missile rl fire-1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;h-turret-mp;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+h_turret_mp look			=	combat look
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;c-turret-mp;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+c_turret_mp_d acc-front-back		=	h_turret_mp_d acc-front-back
+c_turret_mp_d acc-left-right		=	h_turret_mp_d acc-left-right
+c_turret_mp_d acc-up-down		=	h_turret_mp_d acc-up-down
+c_turret_mp_d any aim-still-up		=	h_turret_mp_d any aim-still-up
+c_turret_mp_d any fire-1		=	h_turret_mp_d any fire-1
+c_turret_mp_d any idle			=	h_turret_mp_d idle
+c_turret_mp_d enter			=	h_turret_mp_d enter
+c_turret_mp_d exit			=	h_turret_mp_d exit
+c_turret_mp_d look			=	combat look
+
+                        	                 
+phantom_d enter			=	ghost_d enter
+phantom_p_copilot enter		=	ghost_d enter
+phantom_p_l01 enter		=	combat pistol idle var0
+phantom_p_l02 enter		=	combat pistol idle var0
+phantom_p_l03 enter		=	combat pistol idle var0
+phantom_p_l04 enter		=	combat pistol idle var0
+phantom_p_l05 enter		=	combat pistol idle var0
+phantom_p_l06 enter		=	combat pistol idle var0
+phantom_p_r01 enter		=	combat pistol idle var0
+phantom_p_r02 enter		=	combat pistol idle var0
+phantom_p_r03 enter		=	combat pistol idle var0
+phantom_p_r04 enter		=	combat pistol idle var0
+phantom_p_r05 enter		=	combat pistol idle var0
+phantom_p_r06 enter		=	combat pistol idle var0
+                        	                 
+;scorpion_d enter		=	ghost_d enter
+;scorpion_p_l01 enter		=	ghost_d enter
+;scorpion_p_l02 enter		=	ghost_d enter
+;scorpion_p_r01 enter		=	ghost_d enter
+;scorpion_p_r02 enter		=	ghost_d enter
+                        	                 
+;shadow_d enter			=	ghost_d enter
+;shadow_g enter			=	ghost_d enter
+;shadow_p_l enter		=	ghost_d enter
+;shadow_p_r enter		=	ghost_d enter
+                        	                 
+;warthog_d enter		=	ghost_d enter
+;warthog_g enter		=	ghost_d enter
+;warthog_p enter		=	ghost_d enter
+;warthog_b_hood enter		=	ghost_d enter
+;wraith_d enter			=	ghost_d enter
+                                                 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; vehicle exit ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+                                                 
+;banshee_d exit			=	ghost_d enter
+                        	                 
+;c_dropship_d exit		=	ghost_d enter
+;c_dropship_p_l01 exit		=	ghost_d enter
+;c_dropship_p_l02 exit		=	ghost_d enter
+;c_dropship_p_l03 exit		=	ghost_d enter
+;c_dropship_p_l04 exit		=	ghost_d enter
+;c_dropship_p_r01 exit		=	ghost_d enter
+;c_dropship_p_r02 exit		=	ghost_d enter
+;c_dropship_p_r03 exit		=	ghost_d enter
+;c_dropship_p_r04 exit		=	ghost_d enter
+;c_dropship_g exit		=	ghost_d enter
+;c_dropship_sc_01 exit		=	ghost_d enter
+;c_dropship_sc_02 exit		=	ghost_d enter
+;c_dropship_sc_03 exit		=	ghost_d enter
+;c_dropship_lc exit		=	ghost_d enter
+;h_turret_ap_d exit		=	ghost_d enter                       	                                       	                 
+;longsword_d exit		=	ghost_d enter                        	                 
+;mongoose_d exit			=	ghost_d enter                        	                 
+;pelican_d  exit			=	ghost_d enter
+;pelican_p_l01 exit		=	ghost_d enter
+;pelican_p_l02 exit		=	ghost_d enter
+;pelican_p_l03 exit		=	ghost_d enter
+;pelican_p_l04 exit		=	ghost_d enter
+;pelican_p_l05 exit		=	ghost_d enter
+;pelican_p_r01 exit		=	ghost_d enter
+;pelican_p_r02 exit		=	ghost_d enter
+;pelican_p_r03 exit		=	ghost_d enter
+;pelican_p_r04 exit		=	ghost_d enter
+;pelican_p_r05 exit		=	ghost_d enter
+;pelican_g exit			=	ghost_d enter
+;pelican_lc exit			=	ghost_d enter
+                        	                 
+;throne_d exit			=	ghost_d enter
+                        	                 
+
+phantom_d exit			=	ghost_d exit
+phantom_p_copilot exit		=	ghost_d exit
+phantom_p_l01 exit		=	combat pistol idle var0
+phantom_p_l02 exit		=	combat pistol idle var0
+phantom_p_l03 exit		=	combat pistol idle var0
+phantom_p_l04 exit		=	combat pistol idle var0
+phantom_p_l05 exit		=	combat pistol idle var0
+phantom_p_l06 exit		=	combat pistol idle var0
+phantom_p_r01 exit		=	combat pistol idle var0
+phantom_p_r02 exit		=	combat pistol idle var0
+phantom_p_r03 exit		=	combat pistol idle var0
+phantom_p_r04 exit		=	combat pistol idle var0
+phantom_p_r05 exit		=	combat pistol idle var0
+phantom_p_r06 exit		=	combat pistol idle var0
+
+;scorpion_d exit		=	ghost_d enter
+;scorpion_p_l01 exit		=	ghost_d enter
+;scorpion_p_l02 exit		=	ghost_d enter
+;scorpion_p_r01 exit		=	ghost_d enter
+;scorpion_p_r02 exit		=	ghost_d enter
+                        	                 
+;shadow_d exit			=	ghost_d enter
+;shadow_g exit			=	ghost_d enter
+;shadow_p_l exit		=	ghost_d enter
+;shadow_p_r exit		=	ghost_d enter
+                        	                 
+;warthog_d exit			=	ghost_d enter
+;warthog_g exit			=	ghost_d enter
+;warthog_p exit			=	ghost_d enter
+;warthog_b_hood exit		=	ghost_d enter
+;wraith_d exit			=	ghost_d enter
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; OLD RENAME ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+h-kill left gut			=	s-kill left gut var0
+;h-kill right gut		=	s-kill front gut%0
+;combat pistol land-soft	=	combat pistol land-hard
+
+
+;;CD-passengerL02 exit%1	=	CD-passengerL01 exit%1
+;;CD-passengerL03 exit%1	=	CD-passengerL01 exit%1
+;;CD-passengerL04 exit%1	=	CD-passengerL01 exit%1
+;;CD-passengerR01 exit%1	=	CD-passengerL01 exit%1
+;;CD-passengerR02 exit%1	=	CD-passengerL01 exit%1
+;;CD-passengerR03 exit%1	=	CD-passengerL01 exit%1
+;;CD-passengerR04 exit%1	=	CD-passengerL01 exit%1
+
+
+;;CD-passengerL02 pistol idle	=	CD-passengerL01 pistol idle
+;;CD-passengerL03 pistol idle	=	CD-passengerL01 pistol idle
+;;CD-passengerL04 pistol idle	=	CD-passengerL01 pistol idle
+;;CD-passengerR01 pistol idle	=	CD-passengerL01 pistol idle
+;;CD-passengerR02 pistol idle	=	CD-passengerL01 pistol idle
+;;CD-passengerR03 pistol idle	=	CD-passengerL01 pistol idle
+;;CD-passengerR04 pistol idle	=	CD-passengerL01 pistol idle
+
+crouch pistol ne fire-1		=	combat pistol ne fire-1
+crouch pistol pr fire-1		=	combat pistol pr fire-1
+crouch pistol pp fire-1		=	combat pistol pp fire-1
+combat pistol ne reload-1	=	combat pistol pp reload-1
+crouch pistol ne reload-1	=	combat pistol pp reload-1
+crouch pistol pr reload-1	=	combat pistol pp reload-1
+crouch pistol pp reload-1	=	combat pistol pp reload-1
+combat pistol pr reload-1	=	combat pistol pp reload-1
+crouch pistol aim-move		=	combat pistol aim-still-up
+crouch pistol move-back		=	combat pistol move-back
+flee pistol move-back		=	combat pistol move-back
+flaming pistol move-front	=	flee pistol move-front
+
+
+
+
+;; flee ;;commented out so Grunts drop the FRG when fleeing
+
+;flee missile airborne    	=	flee pistol airborne
+;flee missile idle        	=	flee pistol idle
+;flee missile land-hard   	=	flee pistol land-hard
+;flee missile land-soft   	=	flee pistol land-soft
+;flee missile move-front  	=	flee pistol move-front
+;flee missile turn-left   	=	flee pistol turn-left
+;flee missile turn-right  	=	flee pistol turn-right
+
+
+
+
+;;Stunned
+stunned pistol pp reload-1	=	combat pistol pp reload-1
+stunned landing-dead		=	combat landing-dead
+stunned airborne-dead		=	combat airborne-dead
+stunned missile turn-right	=	stunned pistol turn-right
+stunned missile turn-left	=	stunned pistol turn-left
+stunned missile move-front var0	=	stunned pistol move-front var0
+stunned missile idle var0	=	stunned pistol idle var0
+stunned missile posing var1	=	stunned pistol posing var1
+
+
+;Panic
+panic unarmed turn-right	=	stunned pistol turn-right
+panic unarmed turn-left		=	stunned pistol turn-left
+
+any any any airborne            =          combat pistol airborne
+
+any any any land-soft           =          combat pistol land-soft
+
+any any any land-hard           =          combat pistol land-hard
+
+ 
+any any any move-front var0	=		combat pistol move-front var0
+any any any pistol idle var0	=		combat pistol idle var0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;PINGS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+s-ping back chest      		=		s-ping back gut var1
+
+

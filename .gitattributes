@@ -1,0 +1,6 @@
+*/tags/* filter=lfs diff=lfs merge=lfs -text
+*.JM? filter=lfs diff=lfs merge=lfs -text
+tags/* filter=lfs diff=lfs merge=lfs -text
+/data/sound/e3/music/e3_main_music/front_speakers/loop/e3_main_front.wav filter=lfs diff=lfs merge=lfs -text
+/data/sound/e3/music/e3_main_music/rear_speakers/loop/e3_main_rear.wav filter=lfs diff=lfs merge=lfs -text
+/data/ui/hud/bitmaps/new_hud/crosshairs/hud_reticles.tif filter=lfs diff=lfs merge=lfs -text
