@@ -5,7 +5,7 @@ Repository for Halo 2 E3 2003 (aka "`earthcity`") Digsite content.
 > The tags for this release have not been moved into a `digsite` subfolder and may clash with other mod content. Additionally tag paths may change in future updates. Also use the H2E3_builder.py script to build the map or replace tags\objects\vehicles\ghost\ghost.vehicle with the ghost_lit.vehicle tag. The ghost_lit spams debug.txt writes in tag_test during the final cutscene entirely killing performance. 
 
 > [NOTES]
-> Use the generate_tags_dir.py script to make a new tags directory that symlinks this git's files as well as your "clean" Halo 2 tags folder. Alternatively, use the provided .gitignore as a base to whitelist/blacklist retail Halo 2 tags.
+> Use the generate_tags_dir.py script to make a new tags directory that symlinks this git's files as well as your "clean" Halo 2 tags folder. Alternatively, use the provided .gitignore as a base to whitelist/blacklist retail Halo 2 tags. If you are wanting to add the improved dynamic lights to either this project or any other Halo 2 map, go to Sev's github with the shader used for the "not pstencil" lights on E3: https://github.com/777Sev777/Halo-2-Custom-Shaders
 
 # LICENSE INFORMATION
 > [!IMPORTANT]
